@@ -29,14 +29,11 @@
       "config",
       "react-router",
       "prop-types",
-      "styled-components",
-      "react-router-dom",
-      "react-helmet"
+      "react-router-dom"
     ]
   },
   "plugins": ["jest"],
   "env": {
     "jest/globals": true
-  },
-  "rules":
+  }
 }
