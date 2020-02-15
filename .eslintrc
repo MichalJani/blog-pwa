@@ -1,9 +1,12 @@
 {
-  "parser": "babel-eslint",
+  "parser": ["babel-eslint", "@typescript-eslint/parser"],
   "extends": [
     "airbnb",
     "eslint: recommended",
     "plugin: react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
     "prettier",
     "prettier/react"
   ],
@@ -30,10 +33,17 @@
       "react-router",
       "prop-types",
       "react-router-dom"
-    ]
+    ],
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
   },
-  "plugins": ["jest"],
+  "plugins": ["jest", "react", "@typescript-eslint", "prettier"],
   "env": {
     "jest/globals": true
+  },
+  "rules": {
+    "prettier/prettier": ["warning"]
   }
 }

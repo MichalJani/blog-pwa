@@ -1,0 +1,1 @@
+export { InviteFriendsForm } from './InviteFriendsForm';
