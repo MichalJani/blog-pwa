@@ -1,3 +1,11 @@
+@navy-blue: #0d2557;
+@grey-blue: #93a8c9;
+@salmon: #f5ded5;
+@sea-green: #558d96;
+
+@white: white;
+@black: black;
+
 .App {
   text-align: center;
 }

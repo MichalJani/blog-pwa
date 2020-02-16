@@ -1,13 +1,16 @@
 import React from 'react';
-import { CustomForm, InviteFriendsForm } from '../Forms';
+import { CustomForm, InviteFriendsForm, ExtendedSignUpForm } from '../Forms';
 import './App.css';
 
 export const App = () => {
   return (
     <div className="App">
-      <CustomForm />
+      <div>Building...</div>
+      {/* <CustomForm /> */}
       <br />
-      <InviteFriendsForm />
+      {/* <InviteFriendsForm /> */}
+      <br />
+      {/* <ExtendedSignUpForm /> */}
     </div>
   );
 };

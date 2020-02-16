@@ -1,0 +1,1 @@
+export { SimpleSignUpForm } from './SimpleSignUpForm';
